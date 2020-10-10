@@ -2,7 +2,11 @@
 error_reporting(0);//turns off errir
 date_default_timezone_set("Africa/Nairobi");
 
-$db = new mysqli('localhost', 'root', 'toors', 'mental_auti_awareness'); //connect to database named posta...
+//$db = new mysqli('localhost', 'root', 'toors', 'mental_auti_awareness'); //connect to database named posta...
+
+
+
+$db = new mysqli('remotemysql.com', '7QVZJIgrzo', 'vCPFgXu4aQ', '7QVZJIgrzo'); //connect to database named posta...
 $error = "END Sorry, Connection Error kindly try again later!";
 
 if($db-> connect_error){
