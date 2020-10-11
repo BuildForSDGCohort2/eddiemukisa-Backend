@@ -18,10 +18,14 @@ $sms        = $AT->sms();
 $recipients = "+254727858544";
 
 // Set your message
-$message    = "Welcome to Mental Auti-Awareness,
- Raising awareness of mental health and mental health problems. Stopping the stigmatisation and discrimination mental health carries.
- Providing user friendly services that enable easy access to professional help wherever you are. Good Mental Health for all!
- Visit https://mentalauti-awareness.herokuapp.com/ and Dial *384*74079# for more information and needed help ASAP.";
+// $message    = "Welcome to Mental Auti-Awareness,
+//  Raising awareness of mental health and mental health problems. Stopping the stigmatisation and discrimination mental health carries.
+//  Providing user friendly services that enable easy access to professional help wherever you are. Good Mental Health for all!
+//  Visit https://mentalauti-awareness.herokuapp.com/ and Dial *384*74079# for more information and needed help ASAP.";
+
+
+ $message = "Welcome to Mental Auti-Awareness,Raising awareness of mental health and mental health problems, Providing user friendly services.
+ Visit https://mentalauti-awareness.herokuapp.com/ and Dial *384*74079# for more information.";
 
 // Set your shortCode or senderId
 $from       = "MAAwareness";
