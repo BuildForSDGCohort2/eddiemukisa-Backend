@@ -206,8 +206,7 @@ include_once('functions.php');
                  die($response);
 
                  }
-               // $b = (!tryStuff());
-               // $response = 'END '.$b;
+            
 
                $response = "CON Please enter your area in county form(E.g. Nairobi or Nakuru): ";
 
@@ -519,21 +518,21 @@ include_once('functions.php');
 
         }  else if ($level['0'] == 6 && $count == 1){
 
-              $response = "END To support and take part in this great project by providing Counseling, Rehabilitaion Centres/Programs, Mental Health Professionals etc. Reach out via; \n";
-              $response .= ".  Facebook Page Messenger, Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
-              $response .= ".  Website Mental Auti-Awareness Website \n";
+              $response = "END To support and take part in this great project. Reach out via; \n";
+              $response .= ".  Facebook Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
+              $response .= ".  Website: Mental Auti-Awareness \n";
               $response .= ".  Phone Number: +254... \n";
               $response .= ".  E-Mail: e...m@...com \n";
-              $response .= ".  Social Media: @... Instagram ";
+              $response .= ".  Social Media: @...on Instagram ";
 
           } else if ($level['0'] == 7 && $count == 1){
 
-                $response = "END For more Information and Services Visit Us On Our; \n";
-                $response .= ".  Facebook Page Messenger, Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
-                $response .= ".  Website Mental Auti-Awareness Website \n";
+                $response = "END For more Information and Services Visit Us On; \n";
+                $response .= ".  Facebook Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
+                $response .= ".  Website: Mental Auti-Awareness Website \n";
                 $response .= ".  Phone Number: +254... \n";
                 $response .= ".  E-Mail: e...m@...com \n";
-                $response .= ".  Social Media: @... Instagram ";
+                $response .= ".  Social Media: @...on Instagram ";
 
             }
 
