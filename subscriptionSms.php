@@ -38,7 +38,7 @@ try {
         'checkoutToken'  => $checkoutToken
     ]);
 
-    print_r($result);
+  //  print_r($result);
 } catch (Exception $e) {
     echo "Error: ".$e->getMessage();
 }
@@ -76,14 +76,14 @@ try {
         ]);
 
         foreach($subscriptions as $subscription) {
-            print_r($subscription);
+          //  print_r($subscription);
 
             // Reassign the lastReceivedId
             $lastReceivedId = $subscription->id;
         }
     } while (count($results) > 0);
 
-    // NOTE: Be sure to save the lastReceivedId for next time
+    // NOT: Be sure to save the lastReceivedId for next time
 } catch (Exception $e) {
     echo "Error: ".$e->getMessage();
 }
@@ -116,7 +116,7 @@ try {
         'phoneNumber' => $phoneNumber
     ]);
 
-    print_r($result);
+  //  print_r($result);
 } catch(Exception $e) {
     echo "Error: ".$e->getMessage();
 }
