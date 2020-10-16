@@ -28,7 +28,8 @@ $recipients = "+254727858544";
  Visit https://mentalauti-awareness.herokuapp.com/ and Dial *384*74079# for more information.";
 
 // Set your shortCode or senderId
-$from       = "MAAwareness";
+//$from       = "MAAwareness";
+ $from       = "41441";
 
 try {
     // Thats it, hit send and we'll take care of the rest
