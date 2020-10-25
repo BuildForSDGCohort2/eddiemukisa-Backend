@@ -29,6 +29,7 @@ $recipients = "+254727858544";
 
 // Set your shortCode or senderId
 $from       = "MAAwareness";
+//below allows the User to text back
 // $from       = "41441";
 
 try {
