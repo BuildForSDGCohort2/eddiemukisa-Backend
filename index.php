@@ -24,7 +24,7 @@ include_once('functions.php');
 
 
              $response  = "CON Welcome to Mental Auti-Awareness USSD Services. \n";
-             $response .= "1. Primary Care Provider \n";    //without the RESPONSE .= ,then the latest RESPONSE OVERRIDES the previous RESPONSE.
+             $response .= "1. Look for Primary Care Provider \n";    //without the RESPONSE .= ,then the latest RESPONSE OVERRIDES the previous RESPONSE.
              $response .= "2. Register with us for updates \n";
              $response .= "3. Mental Health Awareness Info \n";
              $response .= "4. GET HELP NOW? \n";
@@ -206,7 +206,7 @@ include_once('functions.php');
                  die($response);
 
                  }
-            
+
 
                $response = "CON Please enter your area in county form(E.g. Nairobi or Nakuru): ";
 
@@ -231,7 +231,7 @@ include_once('functions.php');
               $level['3'] = ucwords($level['3']);
               //ucfirst() strtoupper() uppercase first letter and uppercase whole of string.
 
-              $response = "END Thank you ".$level['1']." for registering. Your national id is ".$level['2']." and your area is ".$level['3'].".";
+              $response = "END Thank you, ".$level['1'].", for registering. Your national id is ".$level['2']." and your area is ".$level['3'].".";
 
               sleep(1);
 
@@ -500,10 +500,13 @@ include_once('functions.php');
           else if ($level['0'] == 4 && $count == 1){
 
               $response = "END If you believe your life/someone elses life is in danger/distress, Call Hotline(Free); \n";
-              $response .= ".  Police: 999 \n";        //The numbering doesn't matter at all..
+              $response .= ".  Facebook Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
+              $response .= ".  Website: mentalauti-awareness.herokuapp.com \n";
               $response .= ".  Mental Health Support: +254... \n";
               $response .= ".  Suicide: +254... \n";
-              $response .= ".  Drug and Alcohol Abuse: +254... ";
+              $response .= ".  Drug and Alcohol Abuse: +254... \n";
+              $response .= ".  Police: 999 ";        //The numbering doesn't matter at all..
+
 
           }
 
@@ -520,7 +523,7 @@ include_once('functions.php');
 
               $response = "END To support and take part in this great project. Reach out via; \n";
               $response .= ".  Facebook Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
-              $response .= ".  Website: Mental Auti-Awareness \n";
+              $response .= ".  Website: mentalauti-awareness.herokuapp.com\n";
               $response .= ".  Phone Number: +254... \n";
               $response .= ".  E-Mail: e...m@...com \n";
               $response .= ".  Social Media: @...on Instagram ";
@@ -529,7 +532,7 @@ include_once('functions.php');
 
                 $response = "END For more Information and Services Visit Us On; \n";
                 $response .= ".  Facebook Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
-                $response .= ".  Website: Mental Auti-Awareness Website \n";
+                $response .= ".  Website: mentalauti-awareness.herokuapp.com \n";
                 $response .= ".  Phone Number: +254... \n";
                 $response .= ".  E-Mail: e...m@...com \n";
                 $response .= ".  Social Media: @...on Instagram ";
