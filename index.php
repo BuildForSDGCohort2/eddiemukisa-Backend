@@ -24,7 +24,7 @@ include_once('functions.php');
 
 
              $response  = "CON Welcome to Mental Auti-Awareness USSD Services. \n";
-             $response .= "1. Look for Primary Care Provider \n";    //without the RESPONSE .= ,then the latest RESPONSE OVERRIDES the previous RESPONSE.
+             $response .= "1. Find nearby Primary Care Provider \n";    //without the RESPONSE .= ,then the latest RESPONSE OVERRIDES the previous RESPONSE.
              $response .= "2. Register with us for updates \n";
              $response .= "3. Mental Health Awareness Info \n";
              $response .= "4. GET HELP NOW? \n";
@@ -370,9 +370,9 @@ include_once('functions.php');
             $response .= "7.   Disruptive, impulse-control and conduct disorders \n";
             $response .= "8.   Substance-related and addictive disorders  \n";
             $response .= "9.   Neurocognitive disorders  \n";
-            $response .= "10.   Personality disorders  \n";
-            $response .= "11.   Paraphilic disorders  \n";
-            $response .= "12.   Other mental disorders  ";
+            $response .= "10.  Personality disorders  \n";
+            $response .= "11.  Paraphilic disorders  \n";
+            $response .= "12.  Other mental disorders  ";
 
 
 
@@ -499,9 +499,9 @@ include_once('functions.php');
 //SELECTION 4 GET HELP
           else if ($level['0'] == 4 && $count == 1){
 
-              $response = "END If you believe your life/someone elses life is in danger/distress, Call Hotline(Free); \n";
-              $response .= ".  Facebook Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
-              $response .= ".  Website: mentalauti-awareness.herokuapp.com \n";
+              $response = "END If you believe your life/someone elses life is in danger/distress; \n";
+              $response .= ".  Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
+              $response .= ".  Web: mentalauti-awareness.herokuapp.com \n";
               $response .= ".  Mental Health Support: +254... \n";
               $response .= ".  Suicide: +254... \n";
               $response .= ".  Drug and Alcohol Abuse: +254... \n";
@@ -522,8 +522,8 @@ include_once('functions.php');
         }  else if ($level['0'] == 6 && $count == 1){
 
               $response = "END To support and take part in this great project. Reach out via; \n";
-              $response .= ".  Facebook Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
-              $response .= ".  Website: mentalauti-awareness.herokuapp.com\n";
+              $response .= ".  Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
+              $response .= ".  Web: mentalauti-awareness.herokuapp.com\n";
               $response .= ".  Phone Number: +254... \n";
               $response .= ".  E-Mail: e...m@...com \n";
               $response .= ".  Social Media: @...on Instagram ";
@@ -531,8 +531,8 @@ include_once('functions.php');
           } else if ($level['0'] == 7 && $count == 1){
 
                 $response = "END For more Information and Services Visit Us On; \n";
-                $response .= ".  Facebook Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
-                $response .= ".  Website: mentalauti-awareness.herokuapp.com \n";
+                $response .= ".  Messenger: Mental Auti-Awareness \n";        //The numbering doesn't matter at all..
+                $response .= ".  Web: mentalauti-awareness.herokuapp.com \n";
                 $response .= ".  Phone Number: +254... \n";
                 $response .= ".  E-Mail: e...m@...com \n";
                 $response .= ".  Social Media: @...on Instagram ";
