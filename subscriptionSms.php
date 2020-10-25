@@ -64,7 +64,7 @@ $keyword       = "Awareness";
 // starting with what you currently believe is the lastReceivedId.
 // Specify 0 for the first time you access the method
 // and the ID of the last subscription we sent you on subsequent calls
-$lastReceivedId = 2007961;
+$lastReceivedId = 0;
 
 try {
     // Fetch all subscriptions using a loop
