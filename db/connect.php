@@ -2,11 +2,16 @@
 error_reporting(0);//turns off errir
 date_default_timezone_set("Africa/Nairobi");
 
-//$db = new mysqli('localhost', 'root', 'toors', 'mental_auti_awareness'); //connect to database named posta...
+//$db = new mysqli('localhost', 'root', 'toors', 'mental_auti_awareness'); //connect to database named ...
 
 
 
-$db = new mysqli('remotemysql.com', '7QVZJIgrzo', 'vCPFgXu4aQ', '7QVZJIgrzo'); //connect to database named posta...
+//$db = new mysqli('remotemysql.com', '7QVZJIgrzo', 'vCPFgXu4aQ', '7QVZJIgrzo'); //connect to database named ...
+
+$db = new mysqli('remotemysql.com', 'yDlwk3AXc6', 'O0mrq44BXo', 'yDlwk3AXc6'); //connect to database named ...
+
+
+
 $error = "END Sorry, Connection Error kindly try again later!";
 
 if($db-> connect_error){
